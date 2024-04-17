@@ -250,72 +250,6 @@ footer .social-icon a {
   padding-right: 20px;
 }
 
-@media (max-width: 1024px) {
-  header {
-    padding: 10px 200px;
-  }
-
-  nav > a {
-    font-size: 1.2em;
-    font-weight: 500;
-    padding-left: 20px;
-  }
-
-  section {
-    padding: 100px 200px;
-
-    background-size: cover;
-  }
-
-  .main {
-    flex-direction: row;
-  }
-
-  img {
-    width: 250%;
-    overflow: hidden;
-    padding-top: 30px;
-  }
-
-  .main h2 span {
-    font-size: 2.2em;
-  }
-
-  .social-icons a {
-    font-size: 1.7em;
-  }
-
-  .title {
-    font-size: 2.2em;
-  }
-
-  .card {
-    width: 10em;
-    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
-    padding: 25px;
-    margin: 15px;
-  }
-
-  .icon {
-    font-size: 5em;
-  }
-
-  .icon-c {
-    font-size: 60px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-  }
-
-  .copy-right p {
-    font-size: 1.2em;
-  }
-
-  footer .social-icon a {
-    font-size: 1.2em;
-    padding-right: 5px;
-  }
-}
-
 
 @media (max-width: 767px) {
   header {
@@ -386,4 +320,72 @@ footer .social-icon a {
     padding-right: 5px;
   }
 }
+@media (max-width: 1024px) {
+  header {
+    padding: 10px 200px;
+  }
+
+  nav > a {
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-left: 20px;
+  }
+
+  section {
+    padding: 100px 200px;
+
+    background-size: cover;
+  }
+
+  .main {
+    flex-direction: row;
+  }
+
+  img {
+    width: 250%;
+    overflow: hidden;
+    padding-top: 30px;
+  }
+
+  .main h2 span {
+    font-size: 2.2em;
+  }
+
+  .social-icons a {
+    font-size: 1.7em;
+  }
+
+  .title {
+    font-size: 2.2em;
+  }
+
+  .card {
+    width: 10em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    padding: 25px;
+    margin: 15px;
+  }
+
+  .icon {
+    font-size: 5em;
+  }
+
+  .icon-c {
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .copy-right p {
+    font-size: 1.2em;
+  }
+
+  footer .social-icon a {
+    font-size: 1.2em;
+    padding-right: 5px;
+  }
+}
+
+
+
 

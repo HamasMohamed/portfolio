@@ -1,0 +1,387 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --color-blue: #3a6cf4;
+  --background-color: #040c42;
+  --hover-link-color: #062c93;
+  --link-visited-color: #510693;
+  --scale-ratio: scale(1.1);
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #fefefe;
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+}
+.logo {
+  text-decoration: none;
+  color: var(--color-blue);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.8em;
+}
+
+nav > a {
+  color: var(--color-blue);
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding-left: 30px;
+}
+nav > a:hover {
+  color: #482597;
+}
+section {
+  padding: 100px 200px;
+  background-color: var(--background-color);
+}
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #08156b;
+}
+img {
+  width: max(75vh);
+}
+.main h2 {
+  color: white;
+  font-size: 1, 4em;
+  font-weight: 500;
+}
+.main h2 span {
+  color: #6389f2;
+
+  font-size: 2em;
+  font-weight: 600;
+}
+.main h3 {
+  color: white;
+  font-size: 1, 4em;
+  font-weight: 500;
+}
+.main-btn {
+  display: inline-block;
+  color: white;
+  word-spacing: 3px;
+  font-size: 1em;
+  font-weight: 600;
+  background-color: #4570e5;
+  text-decoration: none;
+  margin: 30px 0 30px 0;
+  padding: 0.7375em 2.1875em;
+  border-radius: 15px;
+  transition: 0.7s;
+}
+.main-btn:hover {
+  background-color: #062c93;
+  transform: var(--scale-ratio);
+}
+.social-icons a {
+  color: #ffff;
+  font-size: 1.7em;
+  padding-right: 20px;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  color: var(--color-blue);
+  font-size: 2.4em;
+  font-weight: 800;
+  margin-bottom: 50px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 11em;
+  box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+  padding: 25px;
+  margin: 15px;
+  transition: 0.7s;
+}
+.card:hover {
+  transform: var(--scale-ratio);
+}
+.icon {
+  color: var(--color-blue);
+  font-size: 6em;
+  text-align: center;
+}
+.info h3 {
+  font-size: 1.3em;
+  font-weight: 700;
+  text-align: center;
+  margin: 10px;
+}
+.icon-c {
+  font-size: 70px;
+  font-weight: 600;
+  font-style: italic;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  color: var(--color-blue);
+}
+
+.skills {
+  background-color: #fefefe;
+}
+.project {
+  background-color: var(--background-color);
+}
+.project .content {
+  margin-top: 30px;
+}
+.project-card {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 21.3em;
+  border: 1px solid #fefefe;
+  min-height: 14em;
+  margin: 20px;
+  overflow: hidden;
+  transition: 0.7s;
+}
+
+.project-card:hover {
+  transform: var(--scale-ratio);
+}
+.project-card:hover .project-img {
+  opacity: 0.9;
+}
+.project-img img {
+  width: 100%;
+}
+
+.project-info {
+  padding: 1em;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.show-project {
+  text-decoration: none;
+  color: var(--color-blue);
+}
+.show-project:hover {
+  color: var(--hover-link-color);
+}
+
+.show-project:visited {
+  color: var(--link-visited-color);
+}
+
+.contact {
+  background-color: #fefefe;
+}
+.contact-card {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 15em;
+  box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+  margin: 20px;
+  transition: 0.7s;
+  padding: 10px;
+}
+
+.contact-card:hover {
+  transform: var(--scale-ratio);
+}
+
+.contact-icon {
+  font-size: 3em;
+  text-align: center;
+  margin: 20px;
+  color: var(--color-blue);
+}
+
+.contact-info {
+  text-align: center;
+}
+.contact-name {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: var(--background-color);
+  padding: 1em;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.copy-right p {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.copy-right span {
+  color: var(--color-blue);
+}
+
+footer .social-icon a {
+  font-size: 1.3em;
+  color: #ffff;
+
+  padding-right: 20px;
+}
+
+@media (max-width: 767px) {
+  header {
+    padding: 10px 20px;
+  }
+
+  nav > a {
+    font-size: 1em;
+    font-weight: 500;
+    padding-left: 10px;
+  }
+
+  section {
+    padding: 100px 20px;
+    background-color: var(--background-color);
+    background-size: cover;
+    height: 90%;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+
+  img {
+    width: 120%;
+    overflow: hidden;
+    padding-top: 30px;
+  }
+
+  .main h2 span {
+    color: #6389f2;
+    font-size: 1.8em;
+    font-weight: 600;
+  }
+
+  .social-icons a {
+    font-size: 1.4em;
+  }
+
+  .title {
+    font-size: 1.8em;
+  }
+
+  .card {
+    width: 9em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    padding: 25px;
+    margin: 15px;
+  }
+
+  .icon {
+    font-size: 4em;
+  }
+
+  .icon-c {
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .copy-right p {
+    font-size: 1em;
+    font-weight: 600;
+  }
+
+  footer .social-icon a {
+    font-size: 1em;
+    padding-right: 5px;
+  }
+}
+
+@media (max-width: 1024px) {
+  header {
+    padding: 10px 200px;
+  }
+
+  nav > a {
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-left: 20px;
+  }
+
+  section {
+    padding: 100px 200px;
+
+    background-size: cover;
+  }
+
+  .main {
+    flex-direction: row;
+  }
+
+  img {
+    width: 250%;
+    overflow: hidden;
+    padding-top: 30px;
+  }
+
+  .main h2 span {
+    font-size: 2.2em;
+  }
+
+  .social-icons a {
+    font-size: 1.7em;
+  }
+
+  .title {
+    font-size: 2.2em;
+  }
+
+  .card {
+    width: 10em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    padding: 25px;
+    margin: 15px;
+  }
+
+  .icon {
+    font-size: 5em;
+  }
+
+  .icon-c {
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .copy-right p {
+    font-size: 1.2em;
+  }
+
+  footer .social-icon a {
+    font-size: 1.2em;
+    padding-right: 5px;
+  }
+}
